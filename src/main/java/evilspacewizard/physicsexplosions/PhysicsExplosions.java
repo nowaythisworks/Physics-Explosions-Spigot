@@ -1,7 +1,6 @@
 
 package evilspacewizard.physicsexplosions;
 
-package brazil.physicsexplosions;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.ArmorStand;
