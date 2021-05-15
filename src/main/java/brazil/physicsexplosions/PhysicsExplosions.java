@@ -1,5 +1,4 @@
-package brazil.physicsexplosions; //install does not clean, run clean op before building
-
+package brazil.physicsexplosions;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
 import org.bukkit.entity.ArmorStand;
@@ -22,13 +21,13 @@ public final class PhysicsExplosions extends JavaPlugin implements Listener {
 	public void onEnable() {
 		getServer().getPluginManager().registerEvents(this, this);
 		
-		//the x/20tps rate of the update frequency
-		//2 is the default. Increase for faster, decrease for slower.
+		//the x/20tps rate of the physics update frequency
 		//the higher the value, the lesser the lag, but also the lower accuracy of simulation.
 		int loopFrequency = 2;
 		new PhysicsEntity().runTaskTimer(this, 0, loopFrequency);
 	}
 	
+	//as usual, great with the method names
 	@EventHandler
 	public void boom(EntityExplodeEvent e) {
 		final Entity en = e.getEntity();
