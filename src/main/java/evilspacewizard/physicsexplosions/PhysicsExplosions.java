@@ -1,4 +1,4 @@
-package brazil.physicsexplosions; //install does not clean, run clean op before building
+package evilspacewizard.physicsexplosions;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;

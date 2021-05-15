@@ -1,4 +1,4 @@
-package brazil.physicsexplosions;
+package evilspacewizard.physicsexplosions;
 
 import java.util.ArrayList;
 import java.util.HashMap;
