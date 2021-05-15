@@ -1,0 +1,5 @@
+name: PhysicsExplosions
+main: brazil.physicsexplosions.PhysicsExplosions
+version: 1.0
+api-version: 1.16
+load: startup
